@@ -2,7 +2,7 @@
 int main(void)
 /**
 * main - Entry point
-* sizeof - Unary operator that evaluates to the size in memory of the variable or type, in bytes
+* sizeof - size in memory of the variabes in bytes
 * Return: Always 0 (Success)
 */
 {
