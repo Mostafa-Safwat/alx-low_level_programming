@@ -2,7 +2,7 @@
 int main(void)
 /**
 * main - Entry point
-* sizeof - size in memory of the variabes in bytes
+*
 * Return: Always 0 (Success)
 */
 {
