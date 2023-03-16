@@ -3,7 +3,7 @@
 
 /**
 * main - Entry point
-*
+* The write function is used to write the file descriptor
 * Return: Always 1 (Success)
 */
 int main(void)
