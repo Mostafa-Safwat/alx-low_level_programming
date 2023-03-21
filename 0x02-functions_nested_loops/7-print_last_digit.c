@@ -11,7 +11,7 @@ if (last_digit < 0)
 {
 last_digit = -last_digit;
 }
-char last_digit_char = '0' + last_digit;
-_putchar(last_digit_char);
-return (last_digit);
+last_digit += '0';
+_putchar(last_digit);
+return (last_digit - '0');
 }
