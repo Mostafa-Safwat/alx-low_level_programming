@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_alphabet_x10 - prints all letters in lowercase 10 times.
  *
