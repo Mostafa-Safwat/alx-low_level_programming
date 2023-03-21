@@ -2,7 +2,7 @@
 /**
  * main - prints all letters in lowercase
  *
- * Return: Always 0 (Success)
+ * Return: void.
  */
 void print_alphabet(void)
 {
@@ -12,5 +12,4 @@ int i;
 for (i = 0; i < 26; i++)
 _putchar(alph[i]);
 _putchar('\n');
-return (0);
 }
