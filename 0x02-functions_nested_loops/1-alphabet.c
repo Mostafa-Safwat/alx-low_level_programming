@@ -10,9 +10,7 @@ char alph[26] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 
 for (i = 0; i < 26; i++)
-{
 _putchar(alph[i]);
-}
 _putchar('\n');
 return (0);
 }
