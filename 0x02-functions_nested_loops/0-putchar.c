@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * main - loop that prints _putchar 
+ * main - loop that prints _putchar
  *
  * Return: Always 0 (Success)
  */
