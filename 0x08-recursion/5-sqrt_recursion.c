@@ -5,7 +5,7 @@
  *
  * Return: the square root of n, or -1 if n does not have a natural square root
  */
-double sqrt(int n, int i);
+int sqrt_2(int n, int i);
 int _sqrt_recursion(int n)
 {
     if (n < 0)
@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
     }
     else
     {
-        return (sqrt(n, 1));
+        return (sqrt_2(n, 1));
     }
 }
 /**
@@ -28,7 +28,7 @@ int _sqrt_recursion(int n)
  *
  * Return: the square root of n, or -1 if n does not have a natural square root
  */
-double sqrt(int n, int i)
+double sqrt_2(int n, int i)
 {
     if (i * i == n)
     {
@@ -40,6 +40,6 @@ double sqrt(int n, int i)
     }
     else
     {
-        return (sqrt(n, i + 1));
+        return (sqrt_2(n, i + 1));
     }
 }
