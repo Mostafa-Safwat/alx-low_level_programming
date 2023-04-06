@@ -5,6 +5,7 @@
  *
  * Return: the square root of n, or -1 if n does not have a natural square root
  */
+int sqrt(int n, int i);
 int _sqrt_recursion(int n)
 {
 if (n < 0)
@@ -17,17 +18,17 @@ return (n);
 }
 else
 {
-return (sqrt_helper(n, 1));
+return (sqrt(n, 1));
 }
 }
 /**
- * sqrt_helper - helper function to recursively calculate square root
+ * sqrt - helper function to recursively calculate square root
  * @n: the number to find the square root of
  * @i: the current guess for the square root
  *
  * Return: the square root of n, or -1 if n does not have a natural square root
  */
-int sqrt_helper(int n, int i)
+int sqrt(int n, int i)
 {
 if (i * i == n)
 {
@@ -39,6 +40,6 @@ return (-1);
 }
 else
 {
-return (sqrt_helper(n, i + 1));
+return (sqrt(n, i + 1));
 }
 }
