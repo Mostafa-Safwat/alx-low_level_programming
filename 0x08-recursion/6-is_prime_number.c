@@ -5,7 +5,7 @@ int check_divisibility(int n, int i);
 /**
  * check_divisibility - Checks if a number is divisible by another number
  * @n: The number to check
- * @divisor: The divisor to check against
+ * @i: The number to check
  *
  * Return: 1 if n is divisible by divisor, 0 otherwise
  */
