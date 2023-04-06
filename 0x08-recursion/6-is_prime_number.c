@@ -18,7 +18,7 @@ int is_prime_number(int n)
 /**
  * is_prime_number - Checks if a number is prime
  * @n: The number to check
- *
+ * @i: The number to check
  * Return: 1 if n is prime, 0 otherwise
  */
 int check_divisibility(int n, int i)
