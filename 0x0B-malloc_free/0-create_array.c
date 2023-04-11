@@ -26,4 +26,3 @@ arr[i] = c;
 }
 return (arr);
 }
-
